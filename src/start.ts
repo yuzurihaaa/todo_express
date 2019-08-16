@@ -3,7 +3,6 @@
  *
  * created by Sean Maxwell Apr 14, 2019
  */
-
 import ExampleServer from './ExampleServer';
 
 const exampleServer = new ExampleServer();

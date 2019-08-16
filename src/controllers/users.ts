@@ -10,7 +10,7 @@ export class Users {
     @Get(':register')
     private getMessage(req: Request, res: Response) {
         res.status(200).json({
-            message: req.params.msg,
+            message: req.query.msg,
         });
     }
 
